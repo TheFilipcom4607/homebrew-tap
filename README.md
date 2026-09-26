@@ -3,9 +3,11 @@
 Homebrew casks for my apps.
 
 ```sh
-brew tap TheFilipcom4607/tap
-brew install --cask ffmep
+brew install TheFilipcom4607/tap/ffmep
 ```
+
+Use the full name: Homebrew 7 won't load a cask from a tap it doesn't trust by its short
+name alone, and the full name is what tells it you meant this one.
 
 ## Releasing
 
