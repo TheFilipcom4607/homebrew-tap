@@ -1,6 +1,6 @@
 cask "ffmep" do
   version "1.0.0"
-  sha256 "bd4206432eba676da43a9b4748017e3723da4779f721780c414b01fc73752bef"
+  sha256 "e8adf72ae0a11c10bdfcb48f3e98f6ac1e78bd5f75855832eefb1f1f25055a0d"
 
   url "https://github.com/TheFilipcom4607/ffmep/releases/download/v#{version}/ffmep-#{version}.dmg"
   name "ffmep"
