@@ -1,6 +1,6 @@
 cask "wattson" do
   version "2.3"
-  sha256 "c6510c34305318cfb5f145f2d1f931ccf3f2c4c6a2ec9fe06354b196f5e16303"
+  sha256 "a7dcc9c9e2c57992432c47f252a187f5067ae9969b42c0cc4217cc56fe3d84d9"
 
   url "https://github.com/TheFilipcom4607/wattson/releases/download/v#{version}/Wattson-#{version}.dmg"
   name "Wattson"
