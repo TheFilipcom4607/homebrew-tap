@@ -1,6 +1,6 @@
 cask "ffmep" do
-  version "1.0.0"
-  sha256 "c25b23892946353bf17456f6eb45dc269d90be9652a75b5346e358a98bbb52c6"
+  version "1.1.0"
+  sha256 "cfaaf7472c9d5a397c852090b02c723f810a67d0459c1d92085c86c5f6ca6424"
 
   url "https://github.com/TheFilipcom4607/ffmep/releases/download/v#{version}/ffmep-#{version}.dmg"
   name "ffmep"
@@ -16,6 +16,7 @@ cask "ffmep" do
   depends_on arch: :arm64
 
   app "ffmep.app"
+  binary "#{appdir}/ffmep.app/Contents/MacOS/ffmep"
 
   zap trash: [
     "~/Library/Application Support/ffmep",
